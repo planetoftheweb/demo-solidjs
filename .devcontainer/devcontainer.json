@@ -8,8 +8,10 @@
       "package.json", // Specify an array of files you'd like to auto-open
       "LICENSE",
       [  // Group one or more files into a distinct editor group
-        "src/extension.ts",
-        "src/types.ts:10-20" // Select lines 10-20 in the file
+        "index.html",
+        "src/App.jsx",
+        "src/Cast.jsx",
+        "src/index.jsx" // Select lines 10-20 in the file
       ]
     ],
     "terminals": [
