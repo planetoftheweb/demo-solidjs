@@ -1,0 +1,25 @@
+{
+  "extensions": ["lostintangent.workspace-layout", "vsls-contrib.codetour", "planetoftheweb.raybo-light"],
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm start",
+  "workspace": {
+    "view": "README.md", // Displays the project's readme in a sidebar
+    "files": [
+      "package.json", // Specify an array of files you'd like to auto-open
+      "LICENSE",
+      [  // Group one or more files into a distinct editor group
+        "src/extension.ts",
+        "src/types.ts:10-20" // Select lines 10-20 in the file
+      ]
+    ],
+    "terminals": [
+      "clear", // Specify just a command (no name/etc.)
+      {
+        "name": "Commands", // Define the appearance of a terminal instance
+        "color": "blue",
+        "active": true, // Indicate a terminal as recieving focus
+        "icon": "bug"
+      },
+    ]
+  }
+}
