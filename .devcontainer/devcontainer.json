@@ -1,5 +1,6 @@
 {
   "extensions": ["lostintangent.workspace-layout", "vsls-contrib.codetour", "planetoftheweb.raybo-light"],
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   "postCreateCommand": "npm install",
   "postStartCommand": "npm start",
   "workspace": {
