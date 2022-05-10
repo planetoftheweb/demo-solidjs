@@ -3,6 +3,7 @@
   "terminal.integrated.fontSize": 18,
   "editor.tabSize": 2,
   "editor.useTabStops": true,
-  "workbench.colorTheme": "Raybo Light",
-  "editor.fontFamily": "'Jet Brains Mono', Menlo, Monaco, 'Courier New', monospace"
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false
 }
