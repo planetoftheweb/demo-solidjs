@@ -3,7 +3,7 @@
   "terminal.integrated.fontSize": 18,
   "editor.tabSize": 2,
   "editor.useTabStops": true,
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Visual Studio Dark",
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": false
 }

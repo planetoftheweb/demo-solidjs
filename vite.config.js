@@ -7,4 +7,5 @@ export default defineConfig({
     target: 'esnext',
     polyfillDynamicImport: false,
   },
+  server: { hmr: { clientPort: 443 } }
 });

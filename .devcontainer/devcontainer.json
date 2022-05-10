@@ -2,8 +2,9 @@
   "extensions": [
     "lostintangent.workspace-layout",
     "vsls-contrib.codetour",
-    "github-vscode-theme"
+    "GitHub.github-vscode-theme"
   ],
+  "onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc",
   "postCreateCommand": "npm install",
   "postStartCommand": "npm start",
   "workspace": {
@@ -25,7 +26,7 @@
         "color": "blue",
         "active": true, // Indicate a terminal as recieving focus
         "icon": "bug"
-      },
+      }
     ]
   }
 }
