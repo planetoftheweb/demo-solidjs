@@ -1,6 +1,7 @@
 {
   "extensions": [
     "lostintangent.workspace-layout",
+    "lostintangent.codeswing",
     "vsls-contrib.codetour",
     "GitHub.github-vscode-theme"
   ],
