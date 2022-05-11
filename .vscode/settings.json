@@ -4,6 +4,7 @@
   "editor.tabSize": 2,
   "editor.useTabStops": true,
   "workbench.colorTheme": "Visual Studio Dark",
+  "window.zoomLevel": 1.4
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": false
 }
